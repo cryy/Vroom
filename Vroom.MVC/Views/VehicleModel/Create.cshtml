@@ -1,0 +1,31 @@
+﻿@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model Vroom.Dto.CreateVehicleModelDto
+
+<h1>Create Vehicle Model</h1>
+
+<form asp-action="Create">
+    <div class="form-group">
+        <label asp-for="Name" class="control-label"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+        <label asp-for="Abbreviation" class="control-label"></label>
+        <input asp-for="Abbreviation" class="form-control" />
+        <span asp-validation-for="Abbreviation" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="MakeId" class="control-label">Vehicle</label>
+        <select asp-for="MakeId" class="form-control" 
+                asp-items="@(new SelectList(ViewBag.VehicleMakes, "Id", "Name"))">
+            <option value="">-- Select Vehicle --</option>
+        </select>
+        <span asp-validation-for="MakeId" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
+</form>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vroom.MVC", "Vroom.MVC\Vroom.MVC.csproj", "{D12D808F-6A4D-422C-84EE-20FEC6C2124C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vroom.Service", "Vroom.Service\Vroom.Service.csproj", "{A7804236-4185-4C62-8D1D-8A8800E63172}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vroom.Service.Tests", "Vroom.Service.Tests\Vroom.Service.Tests.csproj", "{02D41604-D2D0-4AFE-8C2B-D7BDF0B6EC28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D12D808F-6A4D-422C-84EE-20FEC6C2124C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12D808F-6A4D-422C-84EE-20FEC6C2124C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12D808F-6A4D-422C-84EE-20FEC6C2124C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12D808F-6A4D-422C-84EE-20FEC6C2124C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7804236-4185-4C62-8D1D-8A8800E63172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7804236-4185-4C62-8D1D-8A8800E63172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7804236-4185-4C62-8D1D-8A8800E63172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7804236-4185-4C62-8D1D-8A8800E63172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02D41604-D2D0-4AFE-8C2B-D7BDF0B6EC28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02D41604-D2D0-4AFE-8C2B-D7BDF0B6EC28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02D41604-D2D0-4AFE-8C2B-D7BDF0B6EC28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02D41604-D2D0-4AFE-8C2B-D7BDF0B6EC28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
